@@ -1,0 +1,42 @@
+{
+    "name": "Youtube Downloader Bot",
+    "description": "මෙම බොට් හරහා ඔබට යූටුයුබ් වීඩියෝ බාගත කල හැක..",
+    "logo": "https://telegra.ph/file/3db812d9dcf60ab1a5997.jpg",	
+    "keywords": [
+        "youtube",
+        "downloader",
+        "Telegram Bot",
+        "Youtube",
+        "RAVANA",
+        "Youtube Downloader"
+    ],
+    "website": "https://github.com/SL-RAVANA-OFFICIAL",
+    "repository": "https://github.com/SL-RAVANA-OFFICIAL/Youtube-Downloader",
+    "success_url": "https://t.me/MR_RAVANA_OFFICIAL",
+    "env": {
+        "BOT_TOKEN": {
+            "description": "Your Telegram Bot Token from @BotFather",
+            "value": ""
+        },
+        "API_HASH": {
+            "description": "Your API Hash from my.telegram.org",
+            "value": ""
+        },
+        "API_ID": {
+            "description": "Your APP ID from my.telegram.org",
+            "value": ""
+        }
+    },
+    "addons": [],
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
